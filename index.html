@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Document</title>
+    
+ 
+</head>
+<body>
+    <table class="content-table">
+        <thead>
+          <tr>
+            <th>File name</th>
+            <th>File size</th>
+            <th><button>Info</button></th>
+            
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><p>
+                <input type="file"
+                       id="file"
+                       onchange="Filevalidation()" />
+            </p>
+            <p id="size"></p></td>
+            <td>0 kb to 1 kb</td>
+            <td>
+                <div class="myDIV">know more.</div>
+                <div class="hide">File description</div></td>
+            
+          </tr>
+          <tr class="active-row">
+            <td>     
+                <p>
+                        <input type="file"
+                               id="file"
+                               onchange="Filevalidation()" />
+                    </p>
+                  <p id="size"></p></td>
+            <td>1kb to 1 MB</td>
+            <td> <div class="myDIV">know more.</div>
+                <div class="hide">File description</div></td></td>
+            
+          </tr>
+          <tr>
+            <td>     
+                <p>
+                        <input type="file"
+                               id="file"
+                               onchange="Filevalidation()" />
+                    </p>
+            <p id="size"></p></td>
+            <td>1 MB to 1GB</td>
+            <td> <div class="myDIV">know more.</div>
+                <div class="hide">File description.</div></td></td>
+            
+          </tr>
+        </tbody>
+      </table>
+</body>
+</html>
